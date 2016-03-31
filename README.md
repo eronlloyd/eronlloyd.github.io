@@ -1,3 +1,4 @@
 # eronlloyd.github.io
 
-Personal GitHub portfolio
+Eron Lloyd's personal GitHub portfolio,
+[viewable here](http://eronlloyd.github.com).
