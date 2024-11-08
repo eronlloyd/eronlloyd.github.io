@@ -1,6 +1,8 @@
 site_name: Eron Lloyd
 site_url: https://www.eronlloyd.com
 theme:
+  palette:
+    primary: green
   name: material
   icon:
     repo: fontawesome/brands/github
@@ -25,6 +27,12 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/eronlloyd
       name: Eron Lloyd on LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://www.x.com/eronlloyd
+      name: Eron Lloyd on X (Twitter)
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/eronlloyd
+      name: Eron Lloyd on Instagram
   consent:
     title: Cookie consent
     description: >- 
@@ -38,9 +46,15 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 plugins:
   - search
-  - blog
+  - blog:
+      post_url_format: "{slug}"
   - tags
 nav:
     - Home: 'index.md'
