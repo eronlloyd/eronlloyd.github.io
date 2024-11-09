@@ -1,14 +1,12 @@
 ---
 draft: false
-date: 2024-11-10
+date: 2024-11-08
 categories:
   - Corruption
   - Democracy
 ---
 
 # How Corruption Ruins the World
-
-From Revitalizing Small Cities to Saving the Earth, Corruption is the Primary Problem Preventing a Better Tomorrow for Us All.
 
 <figure markdown="span">
   ![](https://cdn-images-1.medium.com/max/800/1*s6Hgse8nFRCNtesFexaFGg.jpeg){ width="800" }
