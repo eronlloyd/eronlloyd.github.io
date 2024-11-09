@@ -28,6 +28,8 @@ Having my career and much of my life’s work end this way was a heartbreaking a
 
 It’s now been nine years since that happened and, despite the hardship I experienced, I believe I’m a much better person having gone through what I did. It was the most costly education I’ve ever paid for, but I would not give up what I’ve learned to go back in time and avoid it. I’ve stayed relatively silent for the first six years while I pieced my life back together, but I’m ready to share my story.
 
+<!-- more -->
+
 This essay is structured in four parts:
 
 * [Part 1](#part-1) 1 is my recollection my downfall. If you know or heard of me, and wondered what happened since city hall, I start there.
@@ -581,7 +583,7 @@ But rather than confront corruption for what it is, has the highest court in the
 
 To do that, it’s up to us, the people. We must restore the term corruption to its full definition. We know power corrupts and money corrupts, as well. This, then, is where we must focus our efforts: reforming our politics to become as free from the corruptive influences of concentrations of power and the outsized role of campaign contributions as possible.
 
-But even as I write this, the legalization of corruption continues. Another case challenging the legitimacy of bribery laws, [Federal Election Commission v. Ted Cruz for Senate](https://www.vox.com/2022/1/12/22877010/supreme-court-ted-cruz-fec-campaign-finance-bribery-loan), will to be taken up by the Supreme Court next week. Time is running out, and our very future is at stake.
+But even as I write this in 2022, the legalization of corruption continues. Another case challenging the legitimacy of bribery laws, [Federal Election Commission v. Ted Cruz for Senate](https://www.vox.com/2022/1/12/22877010/supreme-court-ted-cruz-fec-campaign-finance-bribery-loan), will to be taken up by the Supreme Court next week. Time is running out, and our very future is at stake.
 
 ### It’s Time to Take Action
 
