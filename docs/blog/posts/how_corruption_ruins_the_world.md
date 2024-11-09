@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-11-10
 categories:
   - Corruption
@@ -332,11 +332,6 @@ Almost two years into the term, I tried to stay focused on doing my job instead 
 
 ### Holding up a House of Cards
 
-<figure markdown="span">
-    ![](https://cdn-images-1.medium.com/max/800/1*-e-GfJhIa6N5KqNenMEuMQ.jpeg){ width="700" }
-    <figcaption>I saw myself in a supporting role within the administration, generally operating in the background to keep everything moving according to the plan. My tendency towards this role moved me to eventually become an all-around “fixer” ready to solve every problem passed to me. I only learned later on that this isn’t always a good idea. MediaNews Group/Reading Eagle via Getty Images.</figcaption>
-</figure>
-
 I slowly realized how much of my time was being spent on political problems, and my ability to focus on my policy work during the day diminished. Nights and weekends are when I generally did what I was hired to do, but some days I’d be so worn out that I came home and just crashed. Those nights I would watch shows like _West Wing_ and _House of Cards_, where the political drama was always center stage, and the people around the main characters — particularly the Chief of Staff — were always cleaning up the mess.
 
 I, too, came to see myself as a fixer, regardless if it was my job or not, because I believed my duty was to make the mayor and the administration, and thus the city, successful. Thanks to my personal efforts through my therapist, I came to grips with some of my behavioral tendencies — most bad, but even some of my best qualities — that contributed to the tunnel vision I developed in city hall:
@@ -381,11 +376,6 @@ That Fall Mayor Spencer and I met with Fleck Consulting to formalize re-election
 These developments gave me a false sense of assurance that everything would be above board, and that perhaps I was overreacting. I still was not happy to be working with them again, but I had to put my faith in Spencer, and trusted he would hold the line.
 
 ### The Election and the Aftermath
-
-<figure markdown="span">
-    ![](https://cdn-images-1.medium.com/max/800/1*I0hilxUBgMqqTNytf__LXA.jpeg){ width="700" }
-    <figcaption>A conversation between the author and Mayor Spencer after he gave his concession speech on Election Night, May 19th, 2015. MediaNews Group/Reading Eagle via Getty Images.</figcaption>
-</figure>
 
 Before covering the 2015 primary election, I believe it’s important to begin with a short backstory.
 
