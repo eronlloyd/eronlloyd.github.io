@@ -25,6 +25,13 @@ hide:
     Reading Area Community College (Reading, PA)<br>
     2005-2006
 
+    ## :material-wallet-membership:{ .md .middle} Memberships
+    ---
+
+    ### Building Industry Consulting Services International (BICSI)
+
+    ### Responsible AI Institute
+
     ## :material-certificate:{ .md .middle } Certifications
     ---
 
@@ -96,7 +103,7 @@ hide:
 
     ### Policy and Data Analyst
 
-    March on Harrisburg (PA)<br>
+    March on Harrisburg (Cheltenham, PA)<br>
     2022 to Present
 
     ### Managing Director
