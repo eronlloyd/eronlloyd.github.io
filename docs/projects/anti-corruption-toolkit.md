@@ -1,3 +1,8 @@
+---
+hide:
+    navigation
+---
+
 # Anti-Corruption Policy Toolkit
 
 The right policy tools can be just as powerful as software on impacting change, so I've been researching

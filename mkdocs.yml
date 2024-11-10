@@ -33,6 +33,12 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/eronlloyd
       name: Eron Lloyd on Instagram
+    - icon: fontawesome/brands/threads
+      link: https://www.threads.net/@eronlloyd
+      name: Eron Lloyd on Threads
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/eronlloyd.bsky.social
+      name: Eron Lloyd on Bluesky
   consent:
     title: Cookie consent
     description: >- 
