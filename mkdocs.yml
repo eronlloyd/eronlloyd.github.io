@@ -59,7 +59,7 @@ nav:
     - Home: 'index.md'
     - About: 'about.md'
     - CV: 'cv.md'
-    - Projects: 'projects.md'
+    - Projects: 'projects'
     - Blog:
       - blog/index.md
 
