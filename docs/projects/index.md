@@ -7,7 +7,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   ## :material-clock-fast:{ .lg .middle } Democrobot AI
+-   ## :material-robot:{ .lg .middle } Democrobot AI
 
     ---
 
