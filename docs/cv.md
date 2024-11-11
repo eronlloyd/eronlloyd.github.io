@@ -90,7 +90,7 @@ hide:
     > ### Special Assistant to the Mayor
 
     City of Reading (Reading, PA)<br>
-    2023 to 2024
+    2012 to 2015
 
     ### Economic Policy Analyst
 
