@@ -7,9 +7,9 @@ hide:
 
 <div class="grid cards" markdown>
 
--   ## :material-dna:{ .md .middle } CliftonStrengths Top Talents
+-   ## :material-dna:{ .md .middle } CliftonStrengths&reg; Top Talents
   
-    [![](../assets/images/eml-clifton-strengths.svg)](../assets/pdfs/CliftonStrengths%20Certificate%20of%20Talent.pdf)
+    [![Click for certificate](../assets/images/eml-clifton-strengths.svg)](../assets/pdfs/CliftonStrengths%20Certificate%20of%20Talent.pdf)
 
     * Input
     * Strategic
@@ -76,6 +76,15 @@ hide:
     ### Certified Fiber Optic Technician (CFOT)
 
     Fiber Optic Association (FOA), 2021
+
+    ### Permaculture Designer
+
+    Susquehanna Permaculture, 2010
+
+    ### Dale Carnegie Course
+
+    Dale Carnegie Training, 1998
+
 
 -   ## :fontawesome-solid-business-time:{ .md .middle } Employment
     ---
