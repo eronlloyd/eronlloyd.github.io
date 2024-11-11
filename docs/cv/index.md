@@ -7,7 +7,17 @@ hide:
 
 <div class="grid cards" markdown>
 
--   ## :material-account-school:{ .md .middle } Education
+-   ## :material-dna:{ .md .middle } CliftonStrengths Top Talents
+  
+    [![](../assets/images/eml-clifton-strengths.svg)](../assets/pdfs/CliftonStrengths%20Certificate%20of%20Talent.pdf)
+
+    * Input
+    * Strategic
+    * Achiever
+    * Learner
+    * Analytical
+
+    ## :material-account-school:{ .md .middle } Education
     ---
 
     ### M.S. in Data Science
@@ -92,6 +102,11 @@ hide:
     City of Reading (Reading, PA)<br>
     2012 to 2015
 
+    ### Managing Director
+
+    Permacultivate (Reading, PA)<br>
+    2010 to 2013
+
     ### Economic Policy Analyst
 
     Center for the Study of Economics &<br>
@@ -105,11 +120,6 @@ hide:
 
     March on Harrisburg (Cheltenham, PA)<br>
     2022 to Present
-
-    ### Managing Director
-
-    Permacultivate (Reading, PA)<br>
-    2010 to 2014
 
     ### Economic Policy Advisor
 

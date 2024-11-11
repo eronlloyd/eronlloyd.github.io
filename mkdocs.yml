@@ -64,7 +64,7 @@ plugins:
 nav:
     - Home: 'index.md'
     - About: 'about.md'
-    - CV: 'cv.md'
+    - CV: 'cv'
     - Projects: 'projects'
     - Blog:
       - blog/index.md
