@@ -35,13 +35,6 @@ hide:
     Reading Area Community College (Reading, PA)<br>
     2005-2006
 
-    ## :material-wallet-membership:{ .md .middle} Memberships
-    ---
-
-    ### Building Industry Consulting Services International (BICSI)
-
-    ### Responsible AI Institute
-
     ## :material-certificate:{ .md .middle } Certifications
     ---
 
@@ -121,6 +114,13 @@ hide:
     Center for the Study of Economics &<br>
     Henry George Foundation of America (Philadelphia, PA)<br>
     2007 to 2009
+
+    ## :material-wallet-membership:{ .md .middle} Memberships
+    ---
+
+    ### Building Industry Consulting Services International (BICSI)
+
+    ### Responsible AI Institute
 
     ## :material-hand-heart:{ .md .middle } Volunteering
     ---

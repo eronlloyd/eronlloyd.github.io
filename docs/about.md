@@ -25,7 +25,7 @@ Outside of work, I've also been concentrating on several efforts I'm extremely p
 particularly campaigning for pro-democracy and anti-corruption legislative reform with organizations
 like [March on Harrisburg](https://www.mohpa.org), [Represent US](https://represent.us/), and
 [Equal Citizens](https://equalcitizens.us/). I've seen firsthand how [corruption can ruin our
-World](blog/posts/how_corruption_ruins_the_world.md), and I'm committed to helping to fight back. Expect
+World](blog/posts/how_corruption_ruins_our_world.md), and I'm committed to helping to fight back. Expect
 a lot of discussion on this urgent topic, and I hope to recruit you to the cause.
 
 To help stay strong in body, mind, and spirit, I've sought refuge in the Dharma in 2015, and have
