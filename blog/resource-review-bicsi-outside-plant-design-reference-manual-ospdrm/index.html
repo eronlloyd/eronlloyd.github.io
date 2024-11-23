@@ -1,0 +1,1185 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.eronlloyd.com/blog/resource-review-bicsi-outside-plant-design-reference-manual-ospdrm/">
+      
+      
+        <link rel="prev" href="../my-journey-into-telecom/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Resource Review: BICSI Outside Plant Design Reference Manual (OSPDRM) - Eron Lloyd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#resource-review-bicsi-outside-plant-design-reference-manual-ospdrm" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Eron Lloyd" class="md-header__button md-logo" aria-label="Eron Lloyd" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Eron Lloyd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Resource Review: BICSI Outside Plant Design Reference Manual (OSPDRM)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../cv/" class="md-tabs__link">
+        
+  
+    
+  
+  CV
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../projects/" class="md-tabs__link">
+        
+  
+    
+  
+  Projects
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Eron Lloyd" class="md-nav__button md-logo" aria-label="Eron Lloyd" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Eron Lloyd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../archive/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/certifications/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Certifications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/corruption/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Corruption
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/democracy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Democracy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/general/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/ict/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../category/learning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2024-11-23 00:00:00" class="md-ellipsis">November 23, 2024</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                          <span class="md-ellipsis">
+                            in
+                            
+                              <a href="../category/ict/">ICT</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              20 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
+          
+            
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-bicsi-ospdrm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is the BICSI OSPDRM?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-can-you-get-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where Can You Get It?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-does-this-resource-excel-and-fall-short" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where Does This Resource Excel and Fall Short?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-you-recommend-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Do You Recommend It?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+
+
+<h1 id="resource-review-bicsi-outside-plant-design-reference-manual-ospdrm">Resource Review: BICSI Outside Plant Design Reference Manual (OSPDRM)</h1>
+<p><img alt="" src="/assets/images/bicsi_ospdrm_resource_review.png" width="800" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Originally published on October 2, 2022 on Medium, now updated and hosted here.</p>
+</div>
+<h2 id="introduction">Introduction</h2>
+<p>In the early years of <a href="../my-journey-into-telecom/">my journey into telecom</a>, understanding the outside plant (OSP) was one of the most time-consuming things to learn. This was primarily due to the relatively obscure nature of the trade, compared to the more common topics of inside plant (ISP)/premises cabling and what we commonly call network engineering. These other disciplines each have a wealth of books, training material, and overall online content, so it was much easier to get started.</p>
+<p>I was somewhat aware of BICSI in 2018, and familiar with the RCDD certification, but somehow I overlooked their OSP offerings for the first two years of my self-study efforts. When I finally looked into it, however, I realized this content could hold the key to my development and I dove in from there. You can read more about my overall <a href="https://blog.telecomcraft.com/bicsi-outside-plant-osp-designer-certification-review-965c3cd3d03d">BICSI OSP Designer certification review here</a>.</p>
+<p>The focus of this resource review, however, is to drill down into the main material for the BICSI OSP Designer curriculum: the <a href="https://www.bicsi.org/education-certification/education-@-bicsi-learning-academy/technical-publications/outside-plant-design">BICSI Outside Plant Design Reference Manual, or OSPDRM</a>. In this review I’m going to take an in-depth look at what it is, where you can get it, what makes this a great resource but also where it falls short, and whether or not I recommend it.</p>
+<p>For full disclosure, while I am a dues-paying BICSI member and certification holder, this review is completely independent and not affiliated with or sponsored by BICSI in any way—it’s just my honest review. If I ever do sponsored promotional content, you’ll be told upfront.</p>
+<!-- more -->
+
+<h2 id="what-is-the-bicsi-ospdrm">What is the BICSI OSPDRM?</h2>
+<p>According to a <a href="https://www.cablinginstall.com/home/article/16480897/bicsi-releases-updated-osp-design-manual">2007 article in the Cabling Installation and Maintenance magazine</a>, the BICSI OSPDRM started out in 1999 as the <em>Customer-owned Outside Plant Design Manual</em>, to support “individuals who design, inspect or maintain the outside plant (OSP) infrastructures in a campus environment.” Apparently there was an RCDD/OSP Specialist credential at that time that was being developed in conjunction with this manual, but has since split off completely as the OSP credential.</p>
+<p>By 2007, when the fourth edition of the manual was released, it had already evolved into a more generalized OSP reference for both campus networks on private land and regional infrastructure in the public right-of-way (ROW). Now in it’s sixth edition, released in 2018, the BICSI OSPDRM is used internationally as a definitive reference for outside plant design.</p>
+<p>In the OSPDRM, “BICSI defines OSP as the telecommunications infrastructure that is designed and installed externally to buildings and typically routed into an entrance facility.” This includes both short haul and long haul networks, with plant “cabling” including “copper, optical fiber, wireless, or coaxial” for short haul networks and “optical fiber, wireless, or satellite provisioning” for long haul networks.</p>
+<p>BICSI further defines OSP designers as those “responsible for designing the interbuilding cabling and entrance facility (EF) infrastructure and the termination of the OSP cabling.” To perform these responsibilities, designers are expected to be competent in the following:</p>
+<ul>
+<li>Pathways and spaces</li>
+<li>Cabling (cable and connecting hardware)</li>
+<li>Bonding and grounding (earthing)</li>
+<li>Right-of-way (R/W)</li>
+<li>System documentation</li>
+<li>Applicable codes and standards</li>
+</ul>
+<p>Overall, the OSPDRM covers these competencies well. Spanning 959 pages in length, it certainly is comprehensive in scope on these topics. The chapters included cover:</p>
+<ol>
+<li>Introduction to Outside Plant</li>
+<li>Cable and Connector Types</li>
+<li>Cabling Topologies</li>
+<li>Pathways and Spaces</li>
+<li>Splicing Hardware</li>
+<li>Bonding and Grounding (Earthing) and Electrical Protection</li>
+<li>Right-of-Way</li>
+<li>Project Design</li>
+<li>Maintenance and Restoration</li>
+<li>Other Technologies</li>
+</ol>
+<p>and it includes appendices on</p>
+<ul>
+<li>Codes, Standards, Regulations, and Organizations</li>
+<li>Legal Considerations</li>
+<li>Cement and Concrete Applications</li>
+<li>Balanced Twisted-Pair Splice Closure Configuration</li>
+</ul>
+<p>as well as a glossary, bibliography, and index.</p>
+<h2 id="where-can-you-get-it">Where Can You Get It?</h2>
+<p>The BICSI OSPDRM is <a href="https://www.bicsi.org/education-certification/education-@-bicsi-learning-academy/technical-publications/outside-plant-design">available from BICSI’s website</a>. As of this video, the digital-only version retails for $255 for BICSI members and $300 for non-members. You can order a hard copy or digital and hard copy bundle as well.</p>
+<p>I originally ordered the bundle, because as much as I appreciate some the advantages of ebooks, I still love having hard copies of my most essential reading material, as you can see behind me. But after working with the 959 page binder for several days, I decided to break it down into chunks within multiple, more manageable-sized binders.</p>
+<p>The digital version comes as a web-based ebook. BICSI’s digital publications are actually pretty usable, including full text searching, offline access, built-in highlighting and notes, plus you can access it from anywhere. I’m fortunate enough right now to work from home quite a lot, but when I’m in the office or even the field I still have access to this reference.</p>
+<p>So while I love a good hard copy book, I’ve found myself using the digital publications more often for the convenience and, quite honestly, because many of the hard copy binders are just not easily accessible. If you have the <a href="https://www.bicsi.org/education-certification/education-@-bicsi-learning-academy/technical-publications/telecommunications-distribution-methods-manual">14th Edition of the Telecommunications Distribution Methods Manual</a>, you’ll know what I’m talking about.</p>
+<p>BICSI publications will be updated from time to time in an errata document, but there are none for the OSPDRM at the time of this article. Because of the speed of changes in our industry, and this manual already being four years old, there are some areas where it will begin to show its age. I’ll cover some of those areas later in the article.</p>
+<h2 id="where-does-this-resource-excel-and-fall-short">Where Does This Resource Excel and Fall Short?</h2>
+<p>As expected, each chapter offers an informative overview of the topic, but like anything, some areas are better covered than others. To help you determine whether this resource is worth using, I’ll give a usually quick summary of each, adding some commentary where it excels or falls short, and mention other resources that might fill the gaps.</p>
+<p>Chapter 1, Introduction to Outside Plant, provides a brief but solid outline of what OSP is and what is involved from an OSP designer’s perspective. If you’re new to OSP, this will provide you with a good idea of where you’re heading. It’s short and sweet, overall.</p>
+<p>Chapter 2, Cable and Connector Types, summarizes fiber, twisted pair, and coaxial cabling and their respective connectors well, too. I especially appreciated a comprehensive walk-through of fiber link loss budgeting, however testing and fiber characterization should have gotten more treatment.</p>
+<p>Attenuation is important, but chromatic dispersion and polarization modal dispersion are as well. In general, designing cable plant for anything over 1 Gbps requires serious testing, and anything over 10 Gbps requires full scale characterization, especially for middle mile and long haul routes.</p>
+<p>Another shortcoming that I noticed was around the discussion of the types of singlemode fiber. OS1 and OS2 are generic names for singlemode fiber that have more to do with the overall cable performance and not the optical fibers inside, which are indicated based on the <a href="https://www.thefoa.org/tech/smf.htm">ITU designations, such as G.652</a>.</p>
+<p>I found the OSPDRM to be much more heavy on twisted pair but light on singlemode specs and applications. There are many different types of singlemode and specific applications that each is best suited for (remember the ITU designations), and like testing, is essential information for the OSP designer.</p>
+<p>Fortunately I found other resources that addressed these shortcomings—namely the Fiber Optic Association’s <a href="https://www.thefoa.org/adv-cert.htm#test">Certified Fiber Optic Specialist in Testing (CFOS/T)</a> course and Optical Technology Training’s <a href="https://www.ott.co.uk/courses/certified-optical-network-associate-cona.html">Certified Optical Network Associate (CONA)</a> and <a href="https://www.ott.co.uk/courses/certified-optical-network-engineer-cone.html">Certified Optical Network Engineer (CONE)</a> courses—so keep an eye out as I’ll talk more about those in upcoming reviews.</p>
+<p>Chapter 3, Cabling Topologies, covers the many topologies possible for a cable plant and their pros and cons, including hybrid fiber coax (HFC) and passive optical network (PON) systems. I personally enjoy thinking topologically about my designs, and it’s all good stuff here.</p>
+<p>Chapter 4, Pathways and Spaces, in my opinion, is by far the longest and most comprehensive part of the manual, going in-depth on direct burial, underground, and aerial pathways, along with the spaces involved in-between each. To give you a sense, it’s about 25% of the entire manual’s pages! It’s so large and I’ve referenced it so much I put it in it’s own binder.</p>
+<p>When you’re just getting started in trying to understand and design the OSP, this is your go-to guide, and where BICSI’s OSPDRM definitely excels. It’s well organized, with helpful illustrations to visualize key concepts, make-ready management strategies, and references common NESC requirements for compliance purposes.</p>
+<p>Overall, each pathway gets good treatment of what I’ll call conventional OSP design. Now despite all that, because of how important this chapter is, I want to cover some significant shortcomings that I hope can be improved in the next edition.</p>
+<p>The first up is microtrenching. I was happy to see it briefly mentioned, but given the growing demand for fiber density, particularly in already congested urban areas, I was hoping for full treatment. The OSPDRM’s acknowledgement does help give the method credibility, but with the recent introduction of purpose-built materials and equipment, I believe it should now be treated as a first-class pathway.</p>
+<p>Traditional trenching for underground networks serving campus, FTTX, and 5G endpoints is often too cost prohibitive, so OSP designers need to know these modern approaches to excavation to deliver cost-effective solutions to their clients. Using microtrenching, which I consider to include pavement saw cutting and vibratory plowing, you can create entire underground pathways across the distribution and access networks, all the way to the premises.</p>
+<p>But designing and building it right requires guidance around the many pitfalls, as well as the stiff opposition from many AHJs. BICSI has an opportunity to offer that guidance and boost the credibility in the interest of its OSP design community.</p>
+<p>The second shortcoming I’d love to see improved is general design best practices in dense urban environments. As I mentioned above, designers face congested underground and aerial pathways. Microtrenching is a promising solution for congested underground, but make-ready on aerial pathways creates a more limited, and sometimes more expensive constraint.</p>
+<p>Designers also face restrictions on the creation of new pathways such as in downtowns or campus environments, regardless of congestion levels. In these areas, AHJs place these limitations mainly for aesthetic purposes, and this can create significant challenges. Restrictions on pole placement are common in these areas, for example, as many consider them unsightly.</p>
+<p>In such areas, like a dense urban neighborhood, distribution cabling is usually routed through existing duct banks to each block, and then run across each building’s exterior. You’ll see this approach in nearly every city without aerial pathways. There is no guidance for such designs, even though there are approaches to these challenges.</p>
+<p>For dense areas where new aerial pathways are allowed, I would have appreciated more pole setting and guying guidance in these environments, too, as setting new pole lines in sidewalks and alleyways are full of challenges. Other options, such as fiber through water or sewer pipes, are now becoming feasible to meet the growing demand for more fiber, and the OSPDRM should pay attention to such advancements.</p>
+<p>The third shortcoming is the lack of long-haul and back-haul route discussions. If anything is central to OSP it is long-haul routes, and designing one requires an understanding of optical transmission constraints and the placement of spaces and equipment necessary for signal amplification or regeneration. I think the OSPDRM is incomplete without coverage of long-haul routes.</p>
+<p>I’m particularly disappointed that one of my favorite types of long-haul, submarine cabling, wasn’t covered. I recognize that subsea is probably too complex, but freshwater lake or river crossings should be discussed in detail. Think of how many practical questions new designers might have about this topic:</p>
+<ul>
+<li>How do you transition from conduit to the water?</li>
+<li>Where should the hand holes be placed along the shore?</li>
+<li>Must the cable be buried like it is in subsea crossings?</li>
+<li>How do you plan for maintenance and repair of the crossings?</li>
+<li>What cable specifications should even be used for such applications?</li>
+</ul>
+<p>I believe submarine crossings are different enough from underground and direct burial that it could be added as a fourth pathway with general recommendations.</p>
+<p>Terrestrial and submarine long-haul wireline routes (over 80 km) are obviously a crucial aspect that OSP designers must be familiar with, but I’d like to see proper coverage of wireless, too. Going back to BICSI’s definition of OSP, wireless is considered a type of cabling for both short and long-haul networks, so OSP designers should be given guidance on these topics.</p>
+<p>Wireless long-haul is commonly called back-haul, and having vendor-neutral wireless back-haul best practices seems like an important thing to standardize. There are many regions where portions of routes are difficult to get through with underground or aerial pathways because of the terrain, and high speed point-to-point wireless bridges between fiber can be utilized. And even if the entire wireline plant can be built out, having wireless back-haul as route diversity can build resiliency into critical network operations.</p>
+<p>Wireless short-haul coverage of fixed wireless access and distribution design should be included, as well. To my knowledge, there is no vendor-neutral standard for designing these topologies, and as wireless ISPs (WISPs) are building out across the World to address network access deficiencies, BICSI could take a lead here to produce that standard. AHJs that oversee or finance this infrastructure could then require compliance to ensure a high quality and reliable network is built.</p>
+<p>Alright, this is my last shortcoming of Chapter 4: weak coverage of entrance facilities. On page 1-1 of the OSPDRM, it literally states that “BICSI defines OSP as the telecommunications infrastructure that is designed and installed externally to buildings and typically routed into an entrance facility (EF).” It goes on to state on page 6-2 that “OSP systems are not just limited to being external to a building. In many jurisdictions, the OSP designer will also be responsible for the design and provisioning of cabling and pathways to where OSP cable is transitioned to approved inside cabling.” Based on these statements, entrances facilities are a fundamental part of OSP, so designers should be given substantial guidance on working with them, right?</p>
+<p>Unfortunately, no. EFs are first discussed briefly in Chapter 4 on pages 252-3 as a sub-header that spans about a page in length and in very generic terms within the Concrete Universal Enclosure (CUE) section. They’re again discussed in Chapter 6 in the context of bonding &amp; grounding for eight pages (starting on 6-34). This is eight times the amount spent on designing and installing them!</p>
+<p>New designers will have lots of questions regarding entrance facilities as they start to work on projects, such as:</p>
+<ul>
+<li>How do you enter an older building without existing pathways?</li>
+<li>What do you do if the existing pathways to the EF are either congested or restricted?</li>
+<li>What if there is no proper EF in the building (many old building are like this), just random mechanical spaces that comms were haphazardly run to?</li>
+<li>What are the tradeoffs between aerial and underground pathways to the EF?</li>
+<li>When and how do you transition between OSP and ISP (premises) cabling?</li>
+<li>What are the best practices based on site type? How about a home? A hut? A campus? A data center? A cell site?</li>
+</ul>
+<p>Proper entrance facilities into the wide range of buildings from the OSP is a core aspect of design work. EFs are crucial to get right the first time, no matter the site type. Once that plant is passed through to the premises and put into production, you don’t want problems down the road.</p>
+<p>Recognizing that risk while I was trying to understand and design EFs, I turned to the <a href="https://tiaonline.org/standard/tia-569/">TIA-569 standard on telecommunications pathways and spaces</a> for guidance. That’s probably your best resource on entrances facilities at this point. If there’s enough interest, I may do a resource review about it.</p>
+<p>Alright, so that was a lot of feedback on Chapter 4! Was it helpful? Please give <em>me</em> feedback so I know how much of a deep dive you want in these reviews. Before we move ahead to the next chapter, I want to make note of something that’s come out since the release of the current OSPDRM that hopefully will start to address the shortcomings above.</p>
+<p>In 2017, BICSI released the <a href="https://www.bicsi.org/standards/available-standards-store/single-purchase/bicsi-g1-17">G1-17, ICT Outside Plant Construction and Installation: General Practices standard</a>. This was the first of a “series of standards written to provide a common methodology for the construction and installation of telecommunication and data cabling used within the outside plant (OSP) environment, for varying applications, jurisdictions and projects.” I found it pretty vague, unfortunately; it seems more like a draft version, with only outlines in many places.</p>
+<p>In 2022, however, two additions to series were released: <a href="https://www.bicsi.org/standards/available-standards-store/single-purchase/bicsi-g2-1-22">G2.1-22, ICT Outside Plant Construction and Installation: Pole Setting, Anchoring, and Guying</a>, and <a href="https://www.bicsi.org/standards/available-standards-store/single-purchase/bicsi-g2-2-22">G2.2-22, ICT Outside Plant Construction and Installation: Aerial Cable Installation</a>. Both are much more comprehensive than the OSPDRM, and I recommend you grab them now that they’re available.</p>
+<p>I really like where things are going here, and I see an opportunity for BICSI to address the above shortcomings like microtrenching, long-haul, wireless, and entrance facilities in subsequent standards. So far, I’m impressed with these standards and will be adopting them for my designs. If there’s enough interest in learning more about them, I’ll add these to the resource review queue.</p>
+<p>Chapter 5, Splicing Hardware, covers the basics of OSP closures and the twisted pair or optical fiber components and equipment necessary to splice cables together inside of those closures. Now I’m an optical network engineer and don’t deal with any coaxial, fortunately, but I was surprised that there wasn’t any discussion of it here.</p>
+<p>In chapters 2 and 3 coaxial cables and hybrid fiber coax were covered, so it should make sense to discuss the related closures and termination components here. I don’t have any recommendations of where else to look, unfortunately, but drop me a comment if you do.</p>
+<p>This was the only shortcoming I saw, keeping in mind that this is a broad topic to cover properly, and you’re going to rely mainly on the manufacturers of your materials and equipment for specific guidance. Also, depending on your role, you’ll need to look elsewhere to develop the skills necessary, like splicing, to install them. I have a lot of skill-building certification content coming up, things that helped me get strong on the technician fundamentals, so keep an eye out for that.</p>
+<p>Chapter 6, Bonding and Grounding (Earthing) and Electrical Protection, covers one of the most important aspects of designing a network from a life, property, and equipment safety perspective. Your plant needs protective systems against risks like lightning, contact with supply circuits, ground potential rise, and even electromagnetic interference. This chapter covers it all.</p>
+<p>Bonding and grounding wasn’t originally something I was familiar with, and not a common part of my daily design work, so it was one of the tougher areas for me on the exam. But this chapter does a great job of covering all the aspects. So whether you have to grab your references every time or are completely comfortable with grounding and bonding concepts, read this chapter carefully and make sure you follow code requirements and best practices for the plant.</p>
+<p>Chapter 7, Right-of-Way, gives readers a thorough overview of the considerations when designing plant in the right-of-way. If you’re fortunate enough to focus solely on customer-owned OSP, such as on campuses or at data centers, good for you! Your job should be a lot easier.</p>
+<p>For the rest of us, however, you better understand navigating the challenges of obtaining right-of-way to get your plant from here to there from anywhere. As the OSPDRM explains on p. 7-1, “The (right-of-way) acquisition process can be one of the greatest factors that affects a project’s schedule … If one small segment of an OSP route is not properly authorized, then that segment becomes the weakest link and prevents the entire OSP project from proceeding.” You definitely want to be solid on this topic.</p>
+<p>Overall, the coverage of right-of-way in the OSPDRM is thorough and introduces the designer to all necessary considerations. You’ll learn what the different types of right-of-way are, how to acquire rights through tools like permits, licenses, or easements, and how to identify and describe the real estate you need access to. Follow the recommendations and you’ll avoid a lot of the pitfalls that exist in this aspect of OSP design.</p>
+<p>But there still some shortcomings that I’ve identified from my six years of experience in the field. Here are some of the most important aspects missing from the chapter that I’ve had to deal with.</p>
+<p>First up are two of the most common types of right-of-way acquisitions that OSP designers will deal with: pole and conduit agreements, often known as joint use agreements. Unless you fully own all the pathways you use, you’ll often need to ask another facility owner to attach to their poles or enter their conduits. And to do this properly, you’ll need joint use agreements, and permits for individuals pole attachments and linear conduit footage.</p>
+<p>Do not install plant on or in third party facilities without properly issued permits; best case you’ll have to pay fines and make ready, and worse case you’ll have to remove the plant and could lose your agreement altogether. Either case puts your design in jeopardy and can cause serious setbacks on your project.</p>
+<p>If you have joint use agreements, ensure your permitting accounts for all related facility use, and verify your records regularly with the facility owner. If you don’t have joint use agreements, it could be a lengthy process to get them, so initiate that process early wherever you may need to build out across. Even if you acquire facilities or receive authorization to use existing facilities from a third party, ensure they have permitting in order before proceeding with any project.</p>
+<p>A second aspect you need to be clear on is the AHJ for the right-of-way, and the multiple dimensions associated with rights-of-way along any route. There are often multiple, even overlapping rights of way that can surface during a design.</p>
+<p>A basic example of this is the right-of-way alongside a state road. In some areas, the municipality will define a right-of-way alongside its streets, but where a state road passes through that municipality, the state AHJ such as the Department of Transportation may have the final authority to issue permits per its regulations.</p>
+<p>I’ll give you another example in permitting for what I call complex crossings such as highways, railroads, rivers, or bridges. The OSPDRM does do a good job addressing rail crossings, which can be some of the most difficult permits to get, but in some cases the state PUC may actually be the AHJ there. Here in Pennsylvania that is true, as well as for bridges. In that case, you may already be permitted to attach to the poles that you use to cross the track or dip under the bridge, but here you’ll also need separate state permitting to perform the crossing.</p>
+<p>Alright, that’s enough on that. The bottom line is make sure you’re never wrong about the right-of-way, OK?</p>
+<p>Chapter 8, Project Design, covers the project management aspect of OSP design—yet another aspect of the work that you as a designer are going to have to master to become successful. OSP projects by their nature are usually quite complicated, and you really don’t want to find your mistakes after the plant has been built. You’ll be relieved to know that the OSPDRM does a very good job of laying out the pitfalls, considerations, checklists, and processes to keep your projects on track.</p>
+<p>At this point in the review you’ll probably also be relieved to know that I can’t think of any shortcomings to get into. In fact, I want to heap some more praise on BICSI here because of the well-deserved coverage of geographic information systems (GIS) as an excellent way to perform both your design work as well as the day-to-day O&amp;M activities necessary to keep the plant in production.</p>
+<p>Down the road I plan to talk a lot more about OSP design using GIS, and it’s encouraging to have BICSI endorsing the approach as well. Having Python and SQL mentioned in the OSPDRM for OSP automation was a pleasant surprise, and I’ll have a lot to discuss about that in the future.</p>
+<p>Chapter 9, Maintenance and Restoration, is a new addition to the sixth edition of the manual, and covers routine maintenance, demand maintenance, emergency restoration, and disaster recovery. As a designer, it’s essential to understand these activities and proactively design the network to facilitate them all whenever required.</p>
+<p>Included in each section of the chapter is a general overview and lists of the top considerations and scenarios all designers should be aware of. This includes several processes and procedures for emergency outages and disaster recovery preparation and response, which are risks your plant will unfortunately face every day. It’s best to design with that expectation in mind.</p>
+<p>Chapter 10, Other Technologies, adds new material to the manual on the topics of Radio Frequency over Glass (RFoG), Passive Optical Networks (PONs), and fiber optic intrusion detection and alarm systems. Each of these topics could be its own chapter, or more likely its own manual, so consider them to be introductions as you’ll need to seek out other resources.</p>
+<p>The section on RFoG is very short, at about half a page, but the PON section is more substantial. Now I have no experience with designing RFoG, but I’m guessing a good place to start for more information would be the <a href="https://www.scte.org/">Society of Cable Telecommunications Engineers’ (SCTE)</a> website.</p>
+<p>PON on the other hand, is something I’ve been designing for years, and I’d recommend checking out the Fiber Broadband Association’s (FBA) <a href="https://www.fiberbroadband.org/page/cfhp-&amp;-service-provider-network-certification">Certified Fiber to the Home Professional (CFHP)</a> program for that. My next certification review will be this credential, so stay tuned to learn more about this excellent program.</p>
+<p>Regarding intrusion detection and alarm systems, I don’t yet have any experience in this, but I would love to monitor attenuation on every route enough to know if someone’s tampering with a hand hole. I think the best place to start here would be the <a href="https://www.fiberopticsensing.org/">Fiber Optic Sensing Association (FOSA)</a>, which was established in 2017 to help promote and advance this exciting optical technology.</p>
+<h2 id="do-you-recommend-it">Do You Recommend It?</h2>
+<p>Alright, that was a pretty long review. If you’re still following along, you’re a die hard OSP designer and must be as passionate about pathways as I am. Or maybe you want to be. In either case, you probably want to know if the OSPDRM is for you. As I’ll probably say each review, every resource excels and falls short in different ways. However, the OSPDRM remains the best overall guide to OSP design, hands down. But let me add some context to that.</p>
+<p>Since the first telephone wires were laid across the U.S., OSP has existed as a field, and it’s an essential part of the modern network infrastructure. But for decades the institutional knowledge on it was contained within the telecom companies, and both standards and training manuals were company specific.</p>
+<p>When telecom was partially deregulated and large companies were broken up, private OSP engineering and construction firms stepped in, and the BICSI OSPDRM emerged. But there is still a lot of hard-earned wisdom stored up in the the seasoned engineers within the telecom companies, and many of them are now retiring. I was told by someone at a private OSP firm that they used to have a steady stream of retired OSP engineers they could use for projects, but those numbers are starting to decline.</p>
+<p>I believe that the OSPDRM must capture that institutional knowledge for next generation of OSP designers who, like myself, entered the field from outside of the traditional telecom engineering path, and equip them with the skills and knowledge necessary to build the next generation of networks. Fortunately the OSPDRM is written by a team of veterans of the trade that volunteer their time to maintain it, so there’s still time to distill that wisdom.</p>
+<p>But everything continues to move faster and faster, and the OSPDRM will have to keep pace to fill those gaps and update existing materials. For example, the <a href="https://spectrum.ieee.org/2023-national-electrical-safety-code">2023 National Electrical Safety Code (NESC) standard was released in August of 2022 and goes into effect next February</a>, so the OSPDRM is already outdated on a very important topic that spans multiple chapters. This could be added as errata in the near future, and I’ll be sure to note that here on my blog.</p>
+<p>As an OSP designer, you just need to be aware of that issue even with the best resources available to you, and keep current on the rapid changes that, for better or for worse, are part of our industry. OSP is a challenging thing to keep pace with, as the technology accelerates but the resources often lag behind. The OSPDRM will get you started, experience will allow you to grow, and hopefully content like this will help you out along the way.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../my-journey-into-telecom/" class="md-footer__link md-footer__link--prev" aria-label="Previous: My Journey into Telecom">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                My Journey into Telecom
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/eronlloyd" target="_blank" rel="noopener" title="Eron Lloyd on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/in/eronlloyd" target="_blank" rel="noopener" title="Eron Lloyd on LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.x.com/eronlloyd" target="_blank" rel="noopener" title="Eron Lloyd on X (Twitter)" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9zm-24.8 373.8h39.1L151.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.instagram.com/eronlloyd" target="_blank" rel="noopener" title="Eron Lloyd on Instagram" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141m0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7m146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8m76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.threads.net/@eronlloyd" target="_blank" rel="noopener" title="Eron Lloyd on Threads" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M331.5 235.7c2.2.9 4.2 1.9 6.3 2.8 29.2 14.1 50.6 35.2 61.8 61.4 15.7 36.5 17.2 95.8-30.3 143.2-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2-32.3-41-48.9-98.1-49.5-169.6v-.5c.5-71.5 17.1-128.6 49.4-169.6 36.3-46.1 90.3-69.7 160.5-70.2h.3c70.3.5 124.9 24 162.3 69.9 18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4-29.2-35.8-73-54.2-130.5-54.6-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3 28 35.6 71.2 53.9 128.2 54.4 51.4-.4 85.4-12.6 113.7-40.9 32.3-32.2 31.7-71.8 21.4-95.9-6.1-14.2-17.1-26-31.9-34.9-3.7 26.9-11.8 48.3-24.7 64.8-17.1 21.8-41.4 33.6-72.7 35.3-23.6 1.3-46.3-4.4-63.9-16-20.8-13.8-33-34.8-34.3-59.3-2.5-48.3 35.7-83 95.2-86.4 21.1-1.2 40.9-.3 59.2 2.8-2.4-14.8-7.3-26.6-14.6-35.2-10-11.7-25.6-17.7-46.2-17.8h-.7c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6.4 99.9 39.5 103.7 107.7l-.2.2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3 25.6-1.4 54.6-11.4 59.5-73.2-13.2-2.9-27.8-4.4-43.4-4.4-4.8 0-9.6.1-14.4.4-42.9 2.4-57.2 23.2-56.2 41.8z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://bsky.app/profile/eronlloyd.bsky.social" target="_blank" rel="noopener" title="Eron Lloyd on Bluesky" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3M288 227.1c-26.1-50.7-97.1-145.2-163.1-191.8C61.6-9.4 37.5-1.7 21.6 5.5 3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7 3.3-.5 6.6-.9 10-1.4-3.3.5-6.6 1-10 1.4-93.9 14-177.3 48.2-67.9 169.9C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4 102.4-103.4 28.1-156-65.8-169.9-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3 64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>
+We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "navigation.sections", "navigation.top", "toc.follow", "toc.integrate", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
