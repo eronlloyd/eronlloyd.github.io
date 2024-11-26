@@ -28,7 +28,7 @@ like [March on Harrisburg](https://www.mohpa.org), [Represent US](https://repres
 World](blog/posts/how_corruption_ruins_our_world.md), and I'm committed to helping to fight back. Expect
 a lot of discussion on this urgent topic, and I hope to recruit you to the cause.
 
-To help stay strong in body, mind, and spirit, I've sought refuge in the Dharma in 2015, and have
+To help stay strong in body, mind, and spirit, I sought refuge in the Dharma in 2015, and have
 been a Zen Buddhist practicioner ever since. As part of that practice, I intend to produce and share
 personal writings and art that draw from that storehouse of wisdom, seeking to promote peace within
 myself and in a World that could always use more.
