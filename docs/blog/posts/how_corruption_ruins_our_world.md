@@ -32,7 +32,7 @@ It’s now been nine years since that happened and, despite the hardship I exper
 
 This essay is structured in four parts:
 
-* [Part 1](#part-1) 1 is my recollection my downfall. If you know or heard of me, and wondered what happened since city hall, I start there.
+* [Part 1](#part-1) is my recollection my downfall. If you know or heard of me, and wondered what happened since city hall, I start there.
 * [Part 2](#part-2) goes into my background, beginning with my youth, and traces the path that lead me into public service.
 * [Part 3](#part-3) explores my time in city hall, covering key events that I believe contributed to the decline and fall of the Spencer administration.
 * [Part 4](#part-4) attempts to cover what I believe we need to do to address the root causes of corruption, beginning within our politics.
@@ -155,7 +155,7 @@ I got to know BCTV’s director, Ann Sheehan, and became directly involved with 
 
 While volunteering at BCTV I met Tom McMahon (who later would become mayor) and learned about a newly organized effort called the Berks Coalition for a Healthy Community (BCHC), an ambitious effort led by the Reading Hospital to bring together leaders from across the county as stakeholders working towards a shared vision.
 
-Fueling that vision was the “Berks County Pierce Report,” authored by Neil R. Pierce and Curtis W. Johnson, which weaved the county’s past and future together, asking stakeholders to envision where Reading and Berks County will be in a decade. This report resonated with me, and would shape my own future efforts, which I’ll discuss further below.
+Fueling that vision was the [Berks County Pierce Report](../../assets/pdfs/Peirce%20Report.pdf), authored by Neil R. Pierce and Curtis W. Johnson, which weaved the county’s past and future together, asking stakeholders to envision where Reading and Berks County will be in a decade. This report resonated with me, and would shape my own future efforts, which I’ll discuss further below.
 
 I joined the BCHC and was recruited as a leader of the Youth Action Team, attending monthly meetings and even traveling to other areas for events. Through my time involved in BCHC, I was introduced to a number of influential community building concepts, particularly Kruger and McKnight’s [Asset-based Community Development (ABCD) model](https://resources.depaul.edu/abcd-institute/) and related community indicator models. Reading suffered from a very negative reputation, which began to frustrate me the more I heard about it, and these approaches offered a new lens to viewing my community for its potential.
 
@@ -188,9 +188,7 @@ While working on my formal studies, I decided to pursue independent research int
 
 After researching and writing for a few months, I realized I’d been compiling enough material to produce a full report, and I envisioned publishing this information in an accessible way for Reading’s civic leaders to use as a reference guide for tackling the city’s challenges. In the Spring of 2006, I released my document, entitled [Reinventing Reading: A Comprehensive Vision and Framework for Revitalization](../../assets/pdfs/Reinventing%20Reading.pdf), and made it freely available online. In it’s final form, it was more like a book at nearly 150 pages, with a table of contents, index, and appendices. I was obviously quite proud of myself for accomplishing this.
 
-I submitted _Reinventing Reading_ to Scribd, an early cloud-based document sharing site, in 2006, and updated it slightly again in 2008 to correct some of the URLs. This remains the official source for the paper.
-
-<iframe class="scribd_iframe_embed" title="Reinventing Reading" src="https://www.scribd.com/embeds/4640115/content?start_page=1&view_mode=scroll&access_key=key-8k3hhjb78chjc8200f1" tabindex="0" data-auto-height="true" data-aspect-ratio="null" scrolling="no" width="80%" height="600" frameborder="0"></iframe><p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"   ></p>
+<iframe class="scribd_iframe_embed" title="Reinventing Reading" src="https://www.scribd.com/embeds/4640115/content?start_page=1&view_mode=scroll&access_key=key-8k3hhjb78chjc8200f1" tabindex="0" data-auto-height="true" data-aspect-ratio="null" scrolling="no" width="80%" height="500" frameborder="0"></iframe><p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"   ></p>
 
 I hand delivered a hard copy to Mayor Tom McMahon, and invited city council and others to a public presentation at RACC where I summarized my recommendations. Sadly it never really had the impact I envisioned. I was 26 at the time, and though many people were familiar with me, I never really engaged with anyone while writing it. I just sequestered myself with my research materials and PC for over a year like I was on a sabbatical while I wrote. At the time I believed I was just trying to help, but no one asked for another dense report, and some were skeptical of my agenda. I definitely may have appeared a bit pretentious, looking back.
 
@@ -290,6 +288,8 @@ Looking back now, it’s clear that Mayor Spencer’s unwavering commitment to t
 ### A Tale of Two Cities
 
 The cities of Allentown and Reading parallel each other in many ways. They both grew into vibrant industrial cities in early America that began declining by the mid-20th century. Both are located in the same Northeastern region of Pennsylvania, with similar size, demographics, and all other characteristics. Both entered the 21st century as part of the rustbelt of aging and distressed cities across the state. Within the last decade, however, as Reading continued into the direction of decline, Allentown began to rise, and many other cities were watching Allentown closely to replicate its success.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7x-GVF2Ru9g?si=bi5JpqVMRtPblGwh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In 2012, the same year the Spencer Administration took office in Reading, Allentown was preparing to hit an inflection point. Up until then, the outlook in Allentown wasn’t much better than Reading, as summarized by Christopher Woods in [_Allentown’s Neighborhood Improvement Zone: Five Years of Failed Community and Economic Development_](http://www.gpprspring.com/allentowns-neighborhood-improvement-zone-woods):
 
@@ -599,12 +599,18 @@ The good news is that the fight against corruption is well underway, with some o
 
 ### RepresentUS
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UTP4uvIFu5c?si=ZyJ89QZ1tkYTvA2y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [RepresentUS](https://represent.us/) is focused on ending corruption in the U.S. through the [American Anti-Corruption Act](https://represent.us/anticorruption-act/) and the [For the People Act](https://act.represent.us/sign/whats-hr-1-and-how-to-pass-it/). In addition to their national reform agenda, they are pushing local anti-corruption legislation across the country.
 
 ### Equal Citizen
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ObPJYTsFD8U?si=tPXO6x-dCqzqsr9F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Lead by [Lawrence Lessig](https://en.wikipedia.org/wiki/Lawrence_Lessig), [Equal Citizen](https://equalcitizens.us/) is another important anti-corruption non-profit, whose strategy is to litigate through court cases in an effort to begin breaking through a legacy of rulings that have enabled the toxic culture we live with today.
 
 ### Fairvote
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NBGSO7oaQ6U?si=0S2Cxf-BEUNwgEZa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [Fairvote](https://www.fairvote.org/) is the leading election reform organization in the U.S., and has been making significant progress on the adoption of ranked choice voting, along with other crucial pro-democracy reforms. By making elections more competitive, while limiting the influence of money on them, candidates will have to run on issues instead of running on cash. These reforms create the political environment that corruption cannot easily rig.
